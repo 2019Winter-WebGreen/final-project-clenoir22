@@ -1,0 +1,47 @@
+/*
+* courtney lenoir
+* due date
+* project name and description
+*/
+
+/* the universal selector */
+
+* { padding: 0;
+    margin:0;
+
+}
+/* body attributes here*/
+body { 
+    width: 90%;
+    background-color: white;
+    margin: 15px auto;
+    border: 1px solid blue; /*formats the borders*/
+    border: 50px solid lightblue;
+    background-color:deepskyblue;
+    font-family:fantasy;/*font for the words*/} /*formats the body*/
+#sidebarA {
+    width: 180px;
+    height: auto;
+    float: left;
+    border: 4px solid pink;
+   }/*formats sidebar A*/
+main {
+    width: 575px;
+    float: left;
+    border: 5px solid pink }/*formats the main*/
+#sidebarb {
+    width: 180px; 
+    height: auto;
+    float: right;
+    border: 4px solid pink;
+}/*formats sidebar b*/
+footer {clear: both; /*makes sure the footer does not float around the main and sidebars*/
+        margin-top: 20px;} /*formats the footer*/
+
+header {text-align: center;
+        font-family: cursive;}
+
+#simone {float: right;
+        height: 220px;
+        width:400px;
+        border: 10px solid blue} /*formats the pictures*/
